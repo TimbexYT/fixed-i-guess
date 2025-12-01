@@ -10,7 +10,7 @@
     "strict": false,
     "baseUrl": ".",
     "paths": {
-      "*": ["*", "../shared/*"]
+      "@shared/*": ["../shared/*"]
     }
   },
   "include": [
@@ -19,3 +19,4 @@
   ],
   "exclude": ["dist"]
 }
+
